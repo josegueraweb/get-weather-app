@@ -19,8 +19,14 @@ main {
     flex-direction: row;
 }
 
+
 .card {
+    margin: 0 10px;
+}
+
+.five-day-forcast-cards .card {
     width: 12rem;
+    margin: 0 auto;
 }
 
 .center-text {

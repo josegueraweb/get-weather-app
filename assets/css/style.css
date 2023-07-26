@@ -19,6 +19,10 @@ main {
     flex-direction: row;
 }
 
+.card {
+    width: 12rem;
+}
+
 .center-text {
     text-align: center;
 }

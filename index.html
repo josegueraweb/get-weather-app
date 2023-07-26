@@ -27,14 +27,17 @@
 
         <aside class="city-module">
 
-            <section class="city-search center-text">
+            <section class="city-search-section center-text">
                 <h2>Search for a City</h2>
-                <button class="btn btn-danger" id="fetch-button">
-                    Click Me
-                </button>
+                <form id="city-search-form">
+                    <input type="text" id="city-search-input" placeholder="Enter City Name">
+                    <button type="submit">Search</button>
+                </form>
+                </div>
+
             </section>
 
-            <section class="city-archive center-text">
+            <section class="city-archive-section center-text">
                 <h2>Archived Cities</h2>
             </section>
         </aside>
@@ -42,28 +45,15 @@
         <section class="forecast center-text">
             <div class="current-forecast">
                 <h2>Today's Forecast</h2>
+                <span id="city-name"></span>
+                <span id="city-temp"></span>
+
             </div>
 
             <div class="five-day-forecast center-text">
                 <h2>5-Day Forecast</h2>
             </div>
         </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

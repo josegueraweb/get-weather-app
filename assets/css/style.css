@@ -27,6 +27,7 @@ main {
 .five-day-forcast-cards .card {
     width: 12rem;
     margin: 0 auto;
+    font-size: 12px;
 }
 
 .center-text {
@@ -51,3 +52,8 @@ main {
 .current-forecast {}
 
 .five-day-forecast {}
+
+.card-main-img {
+width: 100px;
+height: 100px;
+}

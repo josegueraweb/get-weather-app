@@ -31,14 +31,18 @@
                 <h2>Search for a City:</h2>
                 <form id="city-search-form">
                     <input type="text" id="city-search-input" placeholder="Enter City Name">
-                    <button type="submit">Search</button>
+                    <button class="btn btn-primary btn-sm" type="submit">Search</button>
                 </form>
                 </div>
-
             </section>
+
+            <hr>
 
             <section class="city-archive-section center-text">
                 <h2>Archived Cities:</h2>
+                <div class="d-grid gap-2">
+                    <input id="btn-archive" class="btn btn-secondary" type="submit" value=" City">
+                </div>
             </section>
         </aside>
 
@@ -46,83 +50,83 @@
             <div class="current-forecast">
                 <h2 class="center-text">Today's Forecast</h2>
                 <div class="card card-main"">
-                    <div class="card-body">
-                        <h5 class="current-condition"></h5>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item current-temp"></li>
-                        <li class="list-group-item current-wind-speed"></li>
-                        <li class="list-group-item current-humidity"></li>
-                    </ul>
+                    <div class=" card-body">
+                    <h5 class="current-condition"></h5>
                 </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item current-temp"></li>
+                    <li class="list-group-item current-wind-speed"></li>
+                    <li class="list-group-item current-humidity"></li>
+                </ul>
+            </div>
 
-                <div class="five-day-forecast">
+            <div class="five-day-forecast">
 
-                    <h2 class="center-text">5-Day Forecast</h2>
+                <h2 class="center-text">5-Day Forecast</h2>
 
-                    <div class="five-day-forcast-cards row">
+                <div class="five-day-forcast-cards row">
 
-                        <div class="card card-01"">
+                    <div class="card card-01"">
                         <img src="" class=" card-01-img" alt="">
-                            <div class="card-body">
-                                <h5 class="day01-condition"></h5>
-                            </div>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item day01-temp"></li>
-                                <li class="list-group-item day01-wind-speed"></li>
-                                <li class="list-group-item day01-humidity"></li>
-                            </ul>
+                        <div class="card-body">
+                            <h5 class="day01-condition"></h5>
                         </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item day01-temp"></li>
+                            <li class="list-group-item day01-wind-speed"></li>
+                            <li class="list-group-item day01-humidity"></li>
+                        </ul>
+                    </div>
 
-                        <div class="card card-02"">
+                    <div class="card card-02"">
                         <img src="" class=" card-02-img" alt="">
-                            <div class="card-body">
-                                <h5 class="day-condition">Today's Condition is ...</h5>
-                            </div>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item day02-temp"></li>
-                                <li class="list-group-item day02-wind-speed"></li>
-                                <li class="list-group-item day02-humidity"></li>
-                            </ul>
+                        <div class="card-body">
+                            <h5 class="day02-condition"></h5>
                         </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item day02-temp"></li>
+                            <li class="list-group-item day02-wind-speed"></li>
+                            <li class="list-group-item day02-humidity"></li>
+                        </ul>
+                    </div>
 
-                        <div class="card card-03"">
+                    <div class="card card-03"">
                         <img src="" class=" card-03-img" alt="">
-                            <div class="card-body">
-                                <h5 class="day-condition">Today's Condition is ...</h5>
-                            </div>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item day03-temp"></li>
-                                <li class="list-group-item day03-wind-speed"></li>
-                                <li class="list-group-item day03-humidity"></li>
-                            </ul>
+                        <div class="card-body">
+                            <h5 class="day03-condition"></h5>
                         </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item day03-temp"></li>
+                            <li class="list-group-item day03-wind-speed"></li>
+                            <li class="list-group-item day03-humidity"></li>
+                        </ul>
+                    </div>
 
-                        <div class="card card-04"">
+                    <div class="card card-04"">
                         <img src="" class=" card-04-img" alt="">
-                            <div class="card-body">
-                                <h5 class="day-condition">Today's Condition is ...</h5>
-                            </div>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item day04-temp"></li>
-                                <li class="list-group-item day04-wind-speed"></li>
-                                <li class="list-group-item day04-humidity"></li>
-                            </ul>
+                        <div class="card-body">
+                            <h5 class="day04-condition"></h5>
                         </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item day04-temp"></li>
+                            <li class="list-group-item day04-wind-speed"></li>
+                            <li class="list-group-item day04-humidity"></li>
+                        </ul>
+                    </div>
 
-                        <div class="card card-05"">
+                    <div class="card card-05"">
                         <img src="" class=" card-05-img" alt="">
-                            <div class="card-body">
-                                <h5 class="day-condition">Today's Condition is ...</h5>
-                            </div>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item day05-temp"></li>
-                                <li class="list-group-item day05-wind-speed"></li>
-                                <li class="list-group-item day05-humidity"></li>
-                            </ul>
+                        <div class="card-body">
+                            <h5 class="day05-condition"></h5>
                         </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item day05-temp"></li>
+                            <li class="list-group-item day05-wind-speed"></li>
+                            <li class="list-group-item day05-humidity"></li>
+                        </ul>
                     </div>
                 </div>
+            </div>
         </section>
 
     </main>

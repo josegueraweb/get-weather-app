@@ -1,4 +1,4 @@
-# **Get-Weather-App**
+# **Weather Dashboard**
  
 ## **Project Description**
 
